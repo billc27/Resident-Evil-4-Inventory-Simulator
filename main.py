@@ -4,7 +4,8 @@ from Item import Item
 import random
 
 # Inventory Initialization
-print("Welcome to Resident Evil 4 Inventory Simulator")
+print("====================================o====================================")
+print("Welcome to Resident Evil 4 Inventory Simulator (with Auto-Sort Feature)")
 inventory_col = int(input("Please input the desired number of columns for the inventory: "))
 inventory_row = int(input("Please input the desired number of rows for the inventory: "))
 user_inventory = Inventory(inventory_col, inventory_row)
@@ -168,4 +169,6 @@ while (not inventory_choice_valid):
     else:
         print("Input invalid. Please try again!")
 
-print("Thank you for trying my RE Inventory Simulator :)")
+print("Thank you for trying my Resident Evil 4 Inventory Simulator :)")
+print("=================================o=================================")
+print()
